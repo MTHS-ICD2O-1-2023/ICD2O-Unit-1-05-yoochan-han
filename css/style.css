@@ -2,15 +2,25 @@
 * Created on: Sep 2020
 * This file contains the CSS for index.html
 */
-.myheader {
-  position: static;
+body {
+  color: aliceblue;
 }
-
-.mybt {
+.mybody {
   position: relative;
   bottom: -200px;
+  text-align: center;
 }
-.end {
-  position: relative;
-  bottom: -400px;
+.mybtn {
+  position: fixed;
+  right: 3%;
+  bottom: 5%;
+}
+.para {
+  color: red;
+  font-size: medium;
+  font-style: oblique;
+}
+.lst {
+  color: black;
+  font-size: medium;
 }
