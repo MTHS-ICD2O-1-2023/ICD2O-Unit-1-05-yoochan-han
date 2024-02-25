@@ -2,8 +2,15 @@
 * Created on: Sep 2020
 * This file contains the CSS for index.html
 */
+.myheader {
+  position: static;
+}
+
+.mybt {
+  position: relative;
+  bottom: -200px;
+}
 .end {
-  display: grid;
-  text-align: right;
-  
+  position: relative;
+  bottom: -400px;
 }
